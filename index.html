@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html, css, javascript", initial-scale=1.0">
+    <meta name="description" content="Practice project for HTML, CSS, JavaScript">
+    <title>Blog Post Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/resources/favicon.svg">
+    <link rel="icon" type="image/png" href="/resources/favicon.png">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="header-wrapper">
+        <header>
+            <div id="logo-search-container">
+                <img id="logo" src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="">
+                <input type="text" placeholder="Search...">
+            </div>
+            <button onclick="handleCreatPost()">Create Post</button>
+        </header>
+    </div>
+
+    <div id="post-form-container">
+        <form action="">
+            <label for=""><b>Title</b></label>
+            <input type="text" placeholder="Enter Title">
+            <label for=""><b>Description</b></label>
+            <input type="text" placeholder="Enter Description">
+            <label for=""><b>Post</b></label>
+            <input type="text" placeholder="Your Post...">
+        </form>
+    </div>
+        <div id="main-section-container">
+            <article>
+                <img id="article-cover" src="resources/image.jpg" alt="">
+
+                <div>
+                    <h1>Article title</h1>
+                    <h3>Short information on article</h3>
+                    <p class="article-info"><i>written by: Remon Agayby</i></p>
+                    <p class="article-info"><i>date: 12.12.2021</i></p>
+                </div>
+
+                <div>
+                    <p>paragraph one</p>
+                    <p>paragraph two</p>
+                </div>
+            
+                <div>
+                    <h4>Section header</h4>
+                    <p>paragraph one</p>
+                    <h5>This is list of things you should do</h5> 
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+            </article>
+            <aside>
+                <div>
+                    <h2>Side section</h2>
+                    <h3>Another article title</h3> 
+                    <h5>Another article short info</h5> 
+                    <a href="https://www.geeksforgeeks.org/types-software-testing/?ref=rp">Click to see article</a> 
+                </div>
+
+                <div>
+                    <h2>Another side section</h2>
+                    <h3>Article title</h3> 
+                    <h5>Short description</h5> 
+                    <a href="https://livebook.manning.com/book/the-art-of-unit-testing-third-edition/chapter-1/v-4/">Click to see article</a> 
+                </div>
+            </aside> 
+        </div>
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+    </div>
+</body>
+
+</html>
