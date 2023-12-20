@@ -93,6 +93,15 @@ button:hover {
     cursor: pointer;
 }
 
+#hide-btn {
+    color: darkred;
+    border: 1px solid darkred;
+}
+
+#save-btn {
+    color: darkcyan;
+}
+
 #post-form-container {
     max-width: 300px;
     padding: 10px;
@@ -100,7 +109,7 @@ button:hover {
     display: none;
 }
 
-#post-form-container input{
+#post-form-container input, textarea{
     width: 100%;
     margin: 5px 0 20px 0;
     padding: 10px;
